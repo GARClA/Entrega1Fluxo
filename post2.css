@@ -99,13 +99,14 @@
 
 
 #usuario_post{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     height: 10%;
 }
 #usuario_post_div {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .user_image{
@@ -133,4 +134,16 @@
 
 #globo{
     height: 15px;
+    align-self: center;
+    position: relative;
+    top: 15%;
+    left: -22%;
+}
+
+#tres_pontos{
+    margin: 10px;
+    height: 30px;
+    align-self: flex-end;
+    position: relative;
+    left: 33%;
 }
