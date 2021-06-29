@@ -104,6 +104,7 @@
 #usuario_post{
     display: flexbox;
     flex-direction: row;
+    height: 10%;
 }
 #usuario_post_div {
     display: flexbox;
@@ -111,11 +112,9 @@
 }
 #user_post_info{
     display: inline-flex;
+    flex-direction: column;
     color: whitesmoke;
     margin: 5px;
-    position: absolute;
-    top: 6%;
-    padding: 5px;
 }
 #user_post_name {
     display: inline-block;
@@ -127,14 +126,8 @@
     display: inline-block;
     color: whitesmoke;
     margin: 5px;
-    position: absolute;
-    top: 70%;
-
 }
 
 #globo{
     height: 15px;
-    position: absolute;
-    top: 10%;
-    left: 85%;
 }
