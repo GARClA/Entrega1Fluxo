@@ -83,3 +83,58 @@
     position: absolute;
     right: -830%;
 }
+
+#icones_direita {
+    display: flexbox;
+    flex-direction:row;
+    align-self: flex-end;
+    border-bottom: 200px;
+}
+
+.icons_d {
+    margin: 10px;
+    justify-self: center;
+    height: 30px;
+}
+
+.user_image{
+    height: 50px;
+    margin: 10px;
+}
+#usuario_post{
+    display: flexbox;
+    flex-direction: row;
+}
+#usuario_post_div {
+    display: flexbox;
+    flex-direction: row;
+}
+#user_post_info{
+    display: inline-flex;
+    color: whitesmoke;
+    margin: 5px;
+    position: absolute;
+    top: 6%;
+    padding: 5px;
+}
+#user_post_name {
+    display: inline-block;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+#user_post_date {
+    display: inline-block;
+    color: whitesmoke;
+    margin: 5px;
+    position: absolute;
+    top: 70%;
+
+}
+
+#globo{
+    height: 15px;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
