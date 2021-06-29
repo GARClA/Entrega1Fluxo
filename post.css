@@ -271,3 +271,87 @@
     position: absolute;
     top: 325px;
 }
+
+#mais_relevantes_texto{
+    color: whitesmoke;
+    position: absolute;
+    top: 345px;
+    right: 37px;
+    font-weight: bold; 
+}
+
+#mais_relevantes_icon{
+    position: absolute;
+    top: 342px;
+    right: 15px;   
+}
+
+#david{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 370px;
+    left: 20px;
+}
+
+.fundo_comentário{
+    display: flexbox;
+    background-color: #606060;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.usuario{
+font-weight: bolder;
+font-size: 14px;
+}
+
+#comentario1 {
+    position: absolute;
+    top: 370px;
+    left: 80px;
+}
+
+#comentario2 {
+    position: relative;
+    top: 0px;
+}
+
+#luisa {
+    position: relative;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#comentario_usuario{
+    padding: 10px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 310px;
+}
+
+#usuario_autocoment{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+#input_coment{
+    position: relative;
+    bottom: 20px;
+    margin: 10px;
+    background-color: #606060;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 230px;
+}
+
+#linha4 {
+    position: absolute;
+    bottom: 410px;
+}
