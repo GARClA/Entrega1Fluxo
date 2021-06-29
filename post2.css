@@ -2,7 +2,6 @@
     display: flex;
     width:100%;
     flex-direction:row;
-
     justify-content: flex-start;
 }
 
@@ -10,6 +9,7 @@
     display: flex;
     flex-direction:column;
     width: 75%;
+    height: 100%;
     align-items: center;
 }
 
@@ -17,34 +17,69 @@
     display: flex;
     flex-direction:column;
     width: 25%;
+    height: 100%;
 }
 
-.parte-preta{
+
+#parte-preta{
     display: flex;
     flex-direction:column;
     width: 100%;
     background-color: black;
 
-
+    align-content: center;
     justify-content: center;
-
-    padding: 50px;
 }
 
 
-.parte-cinza{
+#parte-cinza{
     display: flex;
     flex-direction:column;
     width: 100%;
     background-color: rgb(45, 45, 45);
+}
 
-    padding: 50px;
+#parte-cinza p{
+    color: whitesmoke;
 }
 
 #postada{
-    max-width: 910px;
+    max-width: 75%;
+    align-self: center;
 }
 
 #icones_e_esquerda {
- align-self: flex-start;
+    display: flexbox;
+    flex-direction: row;
+    align-self: flex-start;
+    position: absolute;
+    top: 5px;
+    width: 8%;
+ 
+}
+
+#icones_e_direita {
+    display: flexbox;
+    flex-direction: row;
+    align-self: flex-end;
+    position: absolute;
+    top: 5px;
+    width: 8%;
+ 
+}
+
+#setas {
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-self: center;
+    width: 8%;
+
+    position: absolute;
+    top: 50%;
+
+}
+
+#seta_d {
+    position: absolute;
+    right: -830%;
 }
