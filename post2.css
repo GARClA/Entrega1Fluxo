@@ -65,6 +65,7 @@
     width: 8%;
  
 }
+
 .icons{
     height: 30px;
 }
@@ -199,4 +200,30 @@
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+}
+
+#selecao{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.comentario_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.fundo_comentario{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(82, 80, 80);
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+
+.usuario {
+    font-weight: bolder;
 }
