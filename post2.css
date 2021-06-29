@@ -97,10 +97,7 @@
     height: 30px;
 }
 
-.user_image{
-    height: 50px;
-    margin: 10px;
-}
+
 #usuario_post{
     display: flexbox;
     flex-direction: row;
@@ -110,6 +107,12 @@
     display: flexbox;
     flex-direction: row;
 }
+
+.user_image{
+    height: 50px;
+    margin: 10px;
+}
+
 #user_post_info{
     display: inline-flex;
     flex-direction: column;
