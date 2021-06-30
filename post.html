@@ -1,80 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="reset.css" rel="stylesheet">
-    <link href="post.css" rel="stylesheet">
-    <title>Facebook</title>
-</head>
-<body>
-    <div class="container">
-         <div class="esquerda">
-            <div class="parte-preta">
-                <img id="postada" src="arquivos_necessarios/processo_seletivo.jpg">
-                <img class="icones_superiores" id="x" src="arquivos_necessarios/x.svg">
-                <img class="icones_superiores" id="facebook_icon" src="arquivos_necessarios/facebook.svg">
-                <img class="icones_superiores" id="lupa_mais" src="arquivos_necessarios/lupa_mais.svg">
-                <img class="icones_superiores" id="lupa_menos" src="arquivos_necessarios/lupa_menos.svg">
-                <img class="icones_superiores" id="etiqueta" src="arquivos_necessarios/etiqueta.svg">
-                <img class="icones_superiores" id="setas_duplas" src="arquivos_necessarios/seta-dupla.svg">
-
-                <img id="seta_direita" src="arquivos_necessarios/seta.svg">
-                <img id="seta_esquerda" src="arquivos_necessarios/seta.svg">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="reset.css" rel="stylesheet">
+        <link href="post.css" rel="stylesheet">
+        <title>Facebook 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="esquerda">
+                <div id="parte-preta">
+                    <img id="postada" src="arquivos_necessarios/processo_seletivo.jpg">
+                    <div id="icones_e_esquerda">
+                        <img class="icons" src="arquivos_necessarios/x.svg">
+                        <img class="icons" src="arquivos_necessarios/facebook.svg">
+                    </div>
+                    <div id="icones_e_direita">
+                        <img class="icons"  src="arquivos_necessarios/lupa_mais.svg">
+                        <img class="icons"  src="arquivos_necessarios/lupa_menos.svg">
+                        <img class="icons"  src="arquivos_necessarios/etiqueta.svg">
+                        <img class="icons"  src="arquivos_necessarios/seta-dupla.svg">
+                    </div>
+                    <div id="setas">
+                        <img class="icons" id="seta_e" src="arquivos_necessarios/seta.svg">
+                        <img class="icons" id="seta_d"style="transform: scaleX(-1);" src="arquivos_necessarios/seta.svg">
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="direita">
-            <div class="parte-cinza">
-                    <img id="menu" src="arquivos_necessarios/menu.svg">
-                    <img id="mensagem" src="arquivos_necessarios/mensagem.svg">
-                    <img id="sino" src="arquivos_necessarios/sino.svg">
-                    <img id="abrir_menu" src="arquivos_necessarios/abrir-menu.svg">
-
-                    <img id="perfil" src="arquivos_necessarios/perfil_fluxo.png">
-                    <p id="usuario_post">Fluxo Consultoria</p>
-                    <p id="data_post">10 de abril</p>
-                    <img id="globo" src="arquivos_necessarios/globo.png">
-                    <img id="tres_pontos" src="arquivos_necessarios/tres-pontos.svg">
-                    <hr width=420 id="linha1"> 
-
-                    <p id="legenda">Até agora o PAME tem sido uma experiência interessantíssima, pode compreender melhor meu comportamento em algumas situações de dinâmica e interação online.
-                    O primeiro desafio de capacitação foi mais desafiador do que o esperado, o que me deixa bastante animado.</p>
-
-                    <p id="dados">2 comentários 8 compartilhamentos</p>
-                    <img id="like_azul" src="arquivos_necessarios/like_azul.png">
-                    <p id="conta_likes">11</p>
-                    <hr width=420 id="linha2"> 
-
-                    <p id="pos_curtir">Curtir</p>
-                    <p id="pos_comentar">Comentar</p>
-                    <p id="pos_compartilhar">Compartilhar</p>
-                    <img id="icon_curtir" src="arquivos_necessarios/curtir.svg">
-                    <img id="icon_comentar" src="arquivos_necessarios/comentar.svg">
-                    <img id="icon_compartilhar" src="arquivos_necessarios/compartilhar.svg">
-                    <hr width=420 id="linha3">
-                    
-                    <p id="mais_relevantes_texto">Mais relevantes</p>
-                    <img id="mais_relevantes_icon" src="arquivos_necessarios/abrir-menu.svg">
-
-                    <img id="david" src="arquivos_necessarios/male_user.png">
-                    <div id="comentario1" class="fundo_comentário">
-                        <p class="usuario">Davi Ricardo Filho</p>
-                        <p>Upzasso</p>
+            <div class="direita">
+                <div id="parte-cinza">
+                    <div id="icones_direita">
+                        <img class="icons_d" src="arquivos_necessarios/menu.svg">
+                        <img class="icons_d" src="arquivos_necessarios/mensagem.svg">
+                        <img class="icons_d" src="arquivos_necessarios/sino.svg">
+                        <img class="icons_d" src="arquivos_necessarios/abrir-menu.svg">
                     </div>
-                    <img id="luisa" src="arquivos_necessarios/female_user.png">
-                    <div id="comentario2" class="fundo_comentário">
-                        <p class="usuario">Luisa Tribaskas</p>
-                        <p>Experiência Sensascional!!! &#128540;</p>
+                    <hr width=100%>
+                    <div id="usuario_post">
+                        <div id="usuario_post_div">
+                            <img class="user_image" src="arquivos_necessarios/perfil_fluxo.png">
+                            <div id="user_post_info">
+                                <p id="user_post_name">Fluxo Consultoria</p>
+                                <p id="user_post_date">10 de abril</p>
+                            </div>
+                            <img id="globo" src="arquivos_necessarios/globo.png">
+                        </div>
+                        <img id="tres_pontos" src="arquivos_necessarios/tres-pontos.svg">
                     </div>
-                    <hr width=420 id="linha4">
-                    <div id="comentario_usuario">
-                        <img id="usuario_autocoment" src="arquivos_necessarios/perfil_fluxo.png">
+                    <div id="legenda">
+                        <p>Até agora o PAME tem sido uma experiência interessantíssima, pode compreender melhor meu comportamento em algumas situações de dinâmica e interação online.</p><br /><br />
+                        <p>O primeiro desafio de capacitação foi mais desafiador do que o esperado, o que me deixa bastante animado.</p><br /><br />
+                    </div>
+                    <div id="dados">
+                        <div id="conjunto_like">
+                                <img id="like_azul" src="arquivos_necessarios/like_azul.png">
+                                <p id="conta_like">11</p>
+                            </div>
+                        <p id="conta_outro">2 comentários 8 compartilhamentos</p>
+                    </div>
+                    <hr width=100%> 
+                    <div id="barra_de_acoes">
+                        <div class="post_act">
+                            <img class="icon_act" src="arquivos_necessarios/curtir.svg">
+                            <p>Curtir</p>   
+                        </div>
+                        <div class="post_act">
+                            <img class="icon_act" src="arquivos_necessarios/comentar.svg">
+                            <p>Comentar</p>
+                        </div>
+                        <div class="post_act">
+                            <img class="icon_act" src="arquivos_necessarios/compartilhar.svg">
+                            <p>Compartilhar</p>
+                        </div>
+                    </div>
+                    <hr width=100%>
+                    <div id="selecao">
+                        <p>Mais relevantes</p>
+                        <img id="selec_seta" src="arquivos_necessarios/abrir-menu.svg">
+                    </div>
+                    <div class="comentario_1">
+                        <img class="user_image" src="arquivos_necessarios/male_user.png">
+                        <div class="fundo_comentario">
+                            <p class="usuario">Davi Ricardo Filho</p>
+                            <p>Upzasso</p>
+                        </div>
+                    </div>
+                    <div class="comentario_1">
+                        <img class="user_image" src="arquivos_necessarios/female_user.png">
+                        <div class="fundo_comentario">
+                            <p class="usuario">Luisa Tribaskas</p>
+                            <p>Experiência Sensascional!!! &#128540;</p>
+                        </div>
+                    </div>
+                    <div id="meu_coment">
+                        <img class="user_image" src="arquivos_necessarios/perfil_fluxo.png">
                         <input id="input_coment" placeholder="Escreva um comentário">
                     </div>
+                </div>
             </div>
-         </div>    
-    </div>
-    
-</body>
+         </div>
+    </body>
 </html>

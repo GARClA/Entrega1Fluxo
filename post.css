@@ -1,357 +1,246 @@
 .container{
     display: flex;
-    width:75%;
-    margin: 100px auto;
-    gap: 50px;
-    background-color: rgb(45, 45, 45);
+    width:100%;
+    height: 100%;
+    flex-direction:row;
+    justify-content: flex-start;
+    /* background-color: rgb(45, 45, 45); */
 }
 
 .esquerda{
     display: flex;
     flex-direction:column;
     width: 75%;
+    height: 100%;
+    align-items: center;
 }
 
-.parte-preta{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.direita{
     display: flex;
     flex-direction:column;
-    align-items: center;
-    width: 75%;
-    background-color: black;
+    width: 25%;
+    /* height: 100%; */
 }
 
-.icones_superiores{
-    width: 40px;
-    height: 40px;
+#parte-preta{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    background-color: black;
+
+    align-content: center;
+    justify-content: center;
+}
+
+#parte-cinza{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+    background-color: rgb(45, 45, 45);
+}
+
+#parte-cinza p{
+    color: whitesmoke;
 }
 
 #postada{
-    width: 910px;
-}
-
-#x{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-}
-
-#facebook_icon{
-    position: absolute;
-    top: 0;
-    left: 55px;
-    width: 40px;
-    height: 40px;
-
-}
-
-#lupa_mais{
-    position: absolute;
-    top: 5px;
-    right: 160px;
-}
-
-#lupa_menos{
-    position: absolute;
-    top: 5px;
-    right: 110px;
-}
-
-#etiqueta{
-    position: absolute;
-    top: 5px;
-    right: 60px;
-}
-
-#setas_duplas{
-    position: absolute;
-    top: 5px;
-    right: 10px;
-}
-
-#seta_direita{
-    transform: scaleX(-1);
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 455px;
-    right: 5px;    
-}
-
-#seta_esquerda{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 455px;
-    left: 5px;    
-}
-
-.parte-cinza{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    width: 25%;
-    height: 910px;
-    background-color: rgb(45, 45, 45);
-}
-
-#abrir_menu{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 5px;
-    right: 15px;  
-    background-color: rgb(45, 45, 45);  
-}
-
-#sino{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 5px;
-    right: 75px;  
-    background-color: rgb(45, 45, 45);
-}
-
-#mensagem{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 5px;
-    right: 135px;
-    background-color: rgb(45, 45, 45);
-}
-
-#menu{
-    width: 60px;
-    height: 60px; 
-    position: absolute;
-    top: 5px;
-    right: 195px;
-    background-color: rgb(45, 45, 45);
-}
-
-#perfil{
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 75px;
-    left: 5px;
-}
-
-#globo{
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 105px;
-    left: 160px;
-}
-
-#usuario_post{
-    position: absolute;
-    top: 85px;
-    left: 85px;
-    color: whitesmoke;
-}
-
-#data_post{
-    position: absolute;
-    top: 105px;
-    left: 85px;
-    color: whitesmoke;
-}
-
-#tres_pontos{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 90px;
-    right: 15px;
-    background-color: rgb(45, 45, 45);
-}
-
-#legenda{
-    color: whitesmoke;
-    margin: 10px;
-    position: absolute;
-    top: 145px;
-}
-
-#dados{
-    color: gray;
-    position: absolute;
-    top: 265px;
-    right: 15px;
-    font-weight: bold;
-}
-
-#like_azul{
-    position: absolute;
-    top: 265px;
-    left: 15px;
-}
-
-#conta_likes{
-    color: gray;
-    position: absolute;
-    top: 268px;
-    left: 40px;
-}
-
-#linha1{
-    position: absolute;
-    top: 55px;
-}
-
-#linha2{
-    position: absolute;
-    top: 285px;
-}
-
-#pos_compartilhar{
-    position: absolute;
-    top: 305px;
-    right: 20px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#pos_comentar{
-    position: absolute;
-    top: 305px;
-    right: 180px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#pos_curtir{
-    position: absolute;
-    top: 305px;
-    left: 55px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#icon_curtir{
-    position: absolute;
-    top: 300px;
-    left: 25px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#icon_comentar{
-    position: absolute;
-    top: 300px;
-    right: 263px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#icon_compartilhar{
-    position: absolute;
-    top: 300px;
-    right: 130px;
-    color: gray;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-#linha3{
-    position: absolute;
-    top: 325px;
-}
-
-#mais_relevantes_texto{
-    color: whitesmoke;
-    position: absolute;
-    top: 345px;
-    right: 37px;
-    font-weight: bold; 
-}
-
-#mais_relevantes_icon{
-    position: absolute;
-    top: 342px;
-    right: 15px;   
-}
-
-#david{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 370px;
-    left: 20px;
-}
-
-.fundo_comentário{
-    display: flexbox;
-    background-color: #606060;
-    border-radius: 10px;
-    padding: 10px;
-    color: whitesmoke;
-}
-
-.usuario{
-font-weight: bolder;
-font-size: 14px;
-}
-
-#comentario1 {
-    position: absolute;
-    top: 370px;
-    left: 80px;
-}
-
-#comentario2 {
-    position: relative;
-    top: 0px;
-}
-
-#luisa {
-    position: relative;
-    top: 0px;
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-#comentario_usuario{
-    padding: 10px;
-    margin-left: 10px;
-    position: absolute;
-    bottom: 310px;
-}
-
-#usuario_autocoment{
-    width: 50px;
-    height: 50px;
+    max-width: 75%;
     align-self: center;
 }
 
-#input_coment{
-    position: relative;
-    bottom: 20px;
-    margin: 10px;
-    background-color: #606060;
-    padding: 10px;
-    color: whitesmoke;
-    border-radius: 10px;
-    width: 230px;
+#icones_e_esquerda {
+    display: flexbox;
+    flex-direction: row;
+    align-self: flex-start;
+    position: absolute;
+    top: 5px;
+    /* width: 8%; */
+ 
 }
 
-#linha4 {
+#icones_e_direita {
+    display: flexbox;
+    flex-direction: row;
+    align-self: flex-end;
     position: absolute;
-    bottom: 410px;
+    top: 5px;
+    /* width: 8%; */
+ 
+}
+
+.icons{
+    height: 30px;
+}
+
+#setas {
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-self: center;
+    width: 8%;
+
+    position: absolute;
+    top: 50%;
+
+}
+
+#seta_d {
+    position: absolute;
+    right: -830%;
+}
+
+#icones_direita {
+    display: flexbox;
+    flex-direction:row;
+    align-self: flex-end;
+    border-bottom: 200px;
+}
+
+.icons_d {
+    margin: 10px;
+    justify-self: center;
+    height: 30px;
+}
+
+#usuario_post{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+}
+
+#usuario_post_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user_image{
+    height: 50px;
+    margin: 10px;
+}
+
+#user_post_info{
+    display: inline-flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+#user_post_name {
+    display: inline-block;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+#user_post_date {
+    display: inline-block;
+    color: whitesmoke;
+    margin: 5px;
+}
+
+#globo{
+    height: 15px;
+    align-self: center;
+    position: relative;
+    top: 15%;
+    left: -22%;
+}
+
+#tres_pontos{
+    display: inline-flex;
+    margin: 10px;
+    height: 30px;
+    align-self: center;
+
+}
+
+#legenda{
+    margin: 15px;
+}
+
+#dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    margin: 15px;
+}
+
+#conjunto_like{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center; 
+}
+
+#conta_like{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-left: 3px;
+}
+
+#conta_outro{
+    display: inline-flex;
+    align-self: flex-end;
+}
+
+#barra_de_acoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    margin: 15px;
+}
+
+.icon_act{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.post_act{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#selecao{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.comentario_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.fundo_comentario{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #606060;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+
+.usuario {
+    font-weight: bolder;
+}
+
+#meu_coment {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    margin-top: 45%;
+}
+
+#input_coment{
+    background-color: #606060;
+    border-radius: 10px;
+    width: 70%;
+    color: whitesmoke;
 }
