@@ -4,6 +4,11 @@ html, body, div, p, a, img{
 	border: 0;
 }
 
+hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 body {
 	line-height: 1;
 }
